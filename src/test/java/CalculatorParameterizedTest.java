@@ -11,11 +11,13 @@ public class CalculatorParameterizedTest {
     void testCase1(String arg){
         Assertions.assertTrue(!arg.isEmpty());
     }
+
     @ParameterizedTest
     @ValueSource(ints = {3,6,9})
     void testCase2(int number){
         Assertions.assertEquals(0,number%3);
     }
+
     @ParameterizedTest
     @EmptySource
     @NullSource

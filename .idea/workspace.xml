@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29b19575-9973-49af-9401-8ed730e9b973" name="Default Changelist" comment="" />
+    <list default="true" id="29b19575-9973-49af-9401-8ed730e9b973" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorParameterizedTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +29,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1f0PlKHCy8g4QIhR5U79RTiKpQH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -118,13 +122,29 @@
       <option name="presentableId" value="Default" />
       <updated>1595352186164</updated>
     </task>
+    <task id="LOCAL-00001" summary="18.56">
+      <created>1595433398434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595433398434</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="18.56" />
+    <option name="LAST_COMMIT_MESSAGE" value="18.56" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2627" y="277" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595352656571">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2627" y="277" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595352656571" />
+    <state x="2475" y="5" key="CommitChangelistDialog2" timestamp="1595433397844">
+      <screen x="1920" y="0" width="1536" height="864" />
+    </state>
+    <state x="2475" y="5" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595433397844" />
     <state width="1130" height="175" key="GridCell.Tab.0.bottom" timestamp="1595365095354">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -141,6 +161,10 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state width="1130" height="175" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595365095354" />
+    <state x="2415" y="144" key="Vcs.Push.Dialog.v2" timestamp="1595433405530">
+      <screen x="1920" y="0" width="1536" height="864" />
+    </state>
+    <state x="2415" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595433405530" />
     <state x="2532" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595433208308">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
