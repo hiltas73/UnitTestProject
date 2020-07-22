@@ -44,4 +44,12 @@ public class CalculatorParameterizedTest {
     void testCase5(int num1, int num2, int expected){
         Assertions.assertEquals(expected, Calculator.add(num1,num2));
     }
+
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/sample-data.csv",numLinesToSkip = 1)
+    void testCase6(int num1, int num2, int expected){
+        Assertions.assertEquals(expected,Calculator.add(num1,num2));
+        System.out.println("total = " + num1 + " + " + num2 + " = " + expected);
+    }
 }

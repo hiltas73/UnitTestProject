@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29b19575-9973-49af-9401-8ed730e9b973" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample-data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorParameterizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculatorParameterizedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CalculatorParameterizedTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorParameterizedTest.testCase5 (1)">
-    <configuration name="CalculatorParameterizedTest.testCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorParameterizedTest" />
-      <option name="METHOD_NAME" value="testCase2(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorParameterizedTest.testCase6">
     <configuration name="CalculatorParameterizedTest.testCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -103,13 +93,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorParameterizedTest.testCase6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTestProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorParameterizedTest" />
+      <option name="METHOD_NAME" value="testCase6(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorParameterizedTest.testCase6" />
         <item itemvalue="JUnit.CalculatorParameterizedTest.testCase5 (1)" />
         <item itemvalue="JUnit.CalculatorParameterizedTest.testCase5" />
         <item itemvalue="JUnit.CalculatorParameterizedTest.testCase4" />
         <item itemvalue="JUnit.CalculatorParameterizedTest.testCase3" />
-        <item itemvalue="JUnit.CalculatorParameterizedTest.testCase2" />
       </list>
     </recent_temporary>
   </component>
@@ -138,47 +138,55 @@
       <option name="project" value="LOCAL" />
       <updated>1595435271630</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="19.52">
+      <created>1595436777751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595436777751</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="18.56" />
     <MESSAGE value="19.15" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.15" />
+    <MESSAGE value="19.52" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.52" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2627" y="277" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595352656571">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2627" y="277" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595352656571" />
-    <state x="2475" y="5" key="CommitChangelistDialog2" timestamp="1595435271017">
+    <state x="2475" y="5" key="CommitChangelistDialog2" timestamp="1595436777187">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2475" y="5" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595435271017" />
-    <state width="1168" height="136" key="GridCell.Tab.0.bottom" timestamp="1595436761735">
+    <state x="2475" y="5" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595436777187" />
+    <state width="1169" height="172" key="GridCell.Tab.0.bottom" timestamp="1595437453119">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1168" height="136" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595436761735" />
-    <state width="1168" height="136" key="GridCell.Tab.0.center" timestamp="1595436761735">
+    <state width="1169" height="172" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595437453119" />
+    <state width="1169" height="172" key="GridCell.Tab.0.center" timestamp="1595437453119">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1168" height="136" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595436761735" />
-    <state width="1168" height="136" key="GridCell.Tab.0.left" timestamp="1595436761734">
+    <state width="1169" height="172" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595437453119" />
+    <state width="1169" height="172" key="GridCell.Tab.0.left" timestamp="1595437453118">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1168" height="136" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595436761734" />
-    <state width="1168" height="136" key="GridCell.Tab.0.right" timestamp="1595436761735">
+    <state width="1169" height="172" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595437453118" />
+    <state width="1169" height="172" key="GridCell.Tab.0.right" timestamp="1595437453119">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1168" height="136" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595436761735" />
-    <state x="2415" y="144" key="Vcs.Push.Dialog.v2" timestamp="1595435278524">
+    <state width="1169" height="172" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595437453119" />
+    <state x="2415" y="144" key="Vcs.Push.Dialog.v2" timestamp="1595436784035">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2415" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595435278524" />
-    <state x="2532" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595433208308">
+    <state x="2415" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595436784035" />
+    <state x="2532" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595437244939">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2532" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595433208308" />
+    <state x="2532" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595437244939" />
     <state x="2596" y="128" width="560" height="559" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595360663757">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
