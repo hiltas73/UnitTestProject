@@ -1,8 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.EmptySource;
-import org.junit.jupiter.params.provider.NullSource;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.*;
 
 public class CalculatorParameterizedTest {
 
@@ -24,5 +22,26 @@ public class CalculatorParameterizedTest {
     @ValueSource(strings = {"Java","Gherkin"})
     void testCase3(String input){
         Assertions.assertTrue(input.isEmpty());
+    }
+
+    @ParameterizedTest
+    @MethodSource("stringProvider")
+    void testCase4(String arg){
+        Assertions.assertNotNull(arg);
+    }
+
+    static  String[] stringProvider(){   //method has to be static and array, iterable or Stream
+        String arr[] = {"Java","JS","TS"};
+        return arr;
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+            "10,20,30",
+            "20,30,50",
+            "40,50,90"
+    })
+    void testCase5(int num1, int num2, int expected){
+        Assertions.assertEquals(expected, Calculator.add(num1,num2));
     }
 }
