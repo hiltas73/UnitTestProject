@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="29b19575-9973-49af-9401-8ed730e9b973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/UnitTestTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample-data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculatorParameterizedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CalculatorParameterizedTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,24 +23,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1f0PlKHCy8g4QIhR5U79RTiKpQH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -53,13 +49,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorParameterizedTest.testCase6">
-    <configuration name="CalculatorParameterizedTest.testCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorParameterizedTest" />
-      <option name="METHOD_NAME" value="testCase3(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager" selected="JUnit.CalculatorTest.add">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,16 +101,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTestProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.add" />
         <item itemvalue="JUnit.CalculatorParameterizedTest.testCase6" />
         <item itemvalue="JUnit.CalculatorParameterizedTest.testCase5 (1)" />
         <item itemvalue="JUnit.CalculatorParameterizedTest.testCase5" />
         <item itemvalue="JUnit.CalculatorParameterizedTest.testCase4" />
-        <item itemvalue="JUnit.CalculatorParameterizedTest.testCase3" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -124,6 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595352186164</updated>
+      <workItem from="1615970135907" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="18.56">
       <created>1595433398434</created>
@@ -153,25 +162,36 @@
       <option name="project" value="LOCAL" />
       <updated>1595437477948</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="after class">
+      <created>1595445384463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595445384463</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="18.56" />
     <MESSAGE value="19.15" />
     <MESSAGE value="19.52" />
     <MESSAGE value="20.05" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.05" />
+    <MESSAGE value="after class" />
+    <option name="LAST_COMMIT_MESSAGE" value="after class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2627" y="277" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595352656571">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2627" y="277" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595352656571" />
-    <state x="2475" y="5" key="CommitChangelistDialog2" timestamp="1595437477139">
+    <state x="2475" y="5" key="CommitChangelistDialog2" timestamp="1595445383802">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2475" y="5" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595437477139" />
+    <state x="2475" y="5" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595445383802" />
     <state width="1169" height="172" key="GridCell.Tab.0.bottom" timestamp="1595437453119">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -188,14 +208,14 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state width="1169" height="172" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595437453119" />
-    <state x="2415" y="144" key="Vcs.Push.Dialog.v2" timestamp="1595437491326">
+    <state x="2415" y="144" key="Vcs.Push.Dialog.v2" timestamp="1595445392588">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2415" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595437491326" />
-    <state x="2532" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595445359994">
+    <state x="2415" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595445392588" />
+    <state x="2532" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1599487880243">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2532" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1595445359994" />
+    <state x="2532" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1599487880243" />
     <state x="2596" y="128" width="560" height="559" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595360663757">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>

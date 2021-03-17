@@ -6,8 +6,8 @@ class CalculatorTest {
 
     @Test
     void add(){
-        int actual = Calculator.add(2,3);
-        assertEquals(5,actual);
+        int actual = Calculator.add(2,8);
+        assertEquals(10,actual);
     }
 
     @Test
